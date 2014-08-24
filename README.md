@@ -7,7 +7,7 @@ Mit dieser Api kann man die Bedeutung und eine Erkl&auml;rung von HTTP STATUS CO
 3. Die Benutzungsanleitung befolgen
 
 ## _BENUTZUNG_
-'''php
+```php
 include "./src/httpcode.php";
 
 #Nachricht anzeigen
@@ -15,4 +15,4 @@ echo httpmsg("404");
 
 #Bedeutung anzeigen
 echo httpmean("404");
-'''
+```
